@@ -12,6 +12,7 @@ const {
 
 const app = express();
 const server = http.createServer(app);
+////New socketio server
 const io = socketio(server);
 
 //Set static folder, you can set.
